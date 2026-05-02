@@ -424,7 +424,6 @@ curl -X DELETE http://localhost:8080/api/orders/1
 | 409 Conflict | Concurrent update conflict, cannot cancel non-PENDING order |
 | 500 Internal Server Error | Unexpected server errors |
 
-For detailed API documentation, see [API_DOCUMENTATION.md](API_DOCUMENTATION.md).
 
 ## Order Status Flow
 
@@ -521,7 +520,6 @@ SELECT * FROM orders;
 SELECT * FROM order_items;
 ```
 
-For detailed testing guide, see [TESTING.md](TESTING.md).
 
 ## Project Structure
 
@@ -698,18 +696,6 @@ Potential improvements for the system:
 - **Event Sourcing**: Implement event-driven architecture
 - **CQRS**: Separate command and query responsibilities
 
----
 
-## Support and Documentation
-
-- **Design Document**: [DESIGN.md](DESIGN.md) - Detailed architecture and design decisions
-- **API Reference**: [API_DOCUMENTATION.md](API_DOCUMENTATION.md) - Complete API documentation
-- **Testing Guide**: [TESTING.md](TESTING.md) - Testing strategies and examples
-
-## License
-
-This project is created for educational and demonstration purposes.
-
----
 
 **Built with ❤️ using Spring Boot**
